@@ -10,12 +10,13 @@ Welcome to **Diacare**, a Bangkit Capstone project focusing on AI-powered soluti
 
 ### 👩‍💻 Team Members
 
-Dear Capstone Team,  
-Hope you are having a great day! ✨
+Welcome to our Capstone project, DiaCare!
 
-Thank you for your enthusiasm in submitting your capstone group for the product track. Now, we are pleased to announce the Final Group Validation for Capstone Project Product Track. Congratulations on your achievement! 😊
+DiaCare is an AI-powered diabetes detection application developed for the Capstone Project Bangkit 2024. This project aims to assist in the early detection of diabetes through nail image analysis.
 
-Here is the detail of your final capstone group.
+We hope you find useful information in this repository and are inspired by our journey in developing this application. Feel free to provide feedback or ask any questions if you'd like to discuss anything.
+
+Thank you for visiting our project! ✨
 
 **Group ID**: C242-PS183  
 
