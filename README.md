@@ -39,4 +39,33 @@ Explore our repositories for each learning path:
 
 ---
 
+
+### Project Mentors
+- **-------** - Assistant Laboratory at Politeknik Siber dan Sandi Negara  
+- **------** - CEO of Syahoney
+
+---
+
+### Documents
+- **[Project Plan/Design Documents](https://drive.google.com/file/d/1g1FD8NL2qfG4EiU2wZFuUt7vYvazodEz/view?usp=sharing)**
+- **[Project Git Repository](https://github.com/MuhammadAriffaizin/bangkit-capstone-project)**
+- Other resources: *(Add here if any)*
+
+---
+
+### Decision Logs
+*Please put here team decision logs at least on a weekly basis.*
+
+---
+
+### Timeline
+
+| Team | Week 1                         | Week 2                              | Week 3                         | Week 4                            | Week 5         |
+|------|--------------------------------|-------------------------------------|--------------------------------|------------------------------------|----------------|
+| ML   | Build Survey-based Model      | Train and Deploy Survey-based Model | Build Speech-based Model      | Train and Deploy Speech-based Model | Integrating    |
+| MD   | -                              | UI/UX Design                        | App Development               | App Development                    | Integrating    |
+| CC   | -                              | Web Development                     | API Development               | Deploy to Google Cloud Platform    | Integrating    |
+
+---
+
 Thank you for visiting our project! 🚀
