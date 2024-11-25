@@ -47,8 +47,8 @@ Explore our repositories for each learning path:
 ---
 
 ### Documents
--[Project Plan/Design Documents] **(https://drive.google.com/file/d/1g1FD8NL2qfG4EiU2wZFuUt7vYvazodEz/view?usp=sharing)**
-- **[Project Git Repository](https://github.com/MuhammadAriffaizin/bangkit-capstone-project)**
+- **[Project Plan/Design Documents](https://drive.google.com/file/d/1g1FD8NL2qfG4EiU2wZFuUt7vYvazodEz/view?usp=sharing)**
+- **[Project Git Repository](------------)**
 - Other resources: 
 
 ---
