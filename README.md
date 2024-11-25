@@ -1,6 +1,6 @@
 # Diacare - Bangkit Capstone Project 2024 ✨✨
 
-![Diacare](https://drive.google.com/file/d/1ExuoNw8oiKwSE1ARNqMWDRPRn0jndd8f/view?usp=sharing)
+![Diacare](https://drive.google.com/uc?id=1ExuoNw8oiKwSE1ARNqMWDRPRn0jndd8f)
 
 Welcome to **Diacare**, a Bangkit Capstone project focusing on AI-powered solutions for **diabetes detection** using advanced image recognition and machine learning technologies! This repository contains all relevant materials and resources for our 2024 Capstone project.
 
