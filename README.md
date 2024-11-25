@@ -1,4 +1,4 @@
-# DiaCare Bangkit Capstone 2024 C242-PS183 ✨✨
+# Diacare - Bangkit Capstone Project 2024 ✨✨
 
 ![Diacare](https://link-ke-gambar-anda.com/gambar.png)
 
@@ -8,18 +8,32 @@ Welcome to **Diacare**, a Bangkit Capstone project focusing on AI-powered soluti
 
 ### 📂 Repositories
 Explore our repositories for each learning path:
-- **[Mobile Development](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183/Mobile_Development)**
-- **[Machine Learning](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183/Machine_Learning)**
-- **[Cloud Computing](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183/Cloud_Computing)**
+- **[Mobile Development](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
+- **[Machine Learning](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
+- **[Cloud Computing](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
 
 ---
 
 ### 👩‍💻 Team Members
-| Name                    | Path               | LinkedIn                                 |
-|-------------------------|--------------------|------------------------------------------|
-| Wilda Rahma Riskika   | Machine Learning   | [LinkedIn](https://www.linkedin.com/in/wildarahmariskika) |
-| Ghefira Zahra Nur Fadhilah     | Machine Learning | [LinkedIn](https://www.linkedin.com/in/ghefirazahranurfadhilah/) |
-| Muhammad Hafiz Nur         | Machine Learning    | [LinkedIn](https://linkedin.com/in/ridwan) |
+
+Dear Capstone Team,  
+Hope you are having a great day! ✨
+
+Thank you for your enthusiasm in submitting your capstone group for the product track. Now, we are pleased to announce the Final Group Validation for Capstone Project Product Track. Congratulations on your achievement! 😊
+
+Here is the detail of your final capstone group.
+
+**Group ID**: C242-PS183  
+
+| Name                         | Student ID            | Learning Path      | Information                                  | University                |
+|------------------------------|-----------------------|--------------------|-------------------------------------------|---------------------------|
+| Wilda Rahma Riskika          | M206B4KX4479          | Machine Learning   | [LinkedIn](https://www.linkedin.com/in/wildarahmariskika/) | Universitas Halu Oleo     |
+| Ghefira Zahra Nur Fadhilah   | M206B4KX1614          | Machine Learning   | [LinkedIn](https://www.linkedin.com/in/ghefirazahranurfadhilah/)| Universitas Halu Oleo     |
+| Muhammad Hafiz Nur           | M184B4KY2867          | Machine Learning   | [LinkedIn](https://linkedin.com/in/hafiz) | Universitas Andalas       |
+| Dara Fazila                  | C251B4KX1000          | Cloud Computing    | [LinkedIn](https://www.linkedin.com/in/dara-fazila-5a8154327/)  | Universitas Malikussaleh  |
+| Laurensia Dini Marys Haryanto| C014B4KX2257          | Cloud Computing    | [LinkedIn](https://www.linkedin.com/in/laurensiadini)| Universitas Udayana   |
+| I Putu Surya Adi Wirawan     | A014B4KY1885          | Mobile Development | [LinkedIn](https://linkedin.com/in/putu)  | Universitas Udayana       |
+| Riyo Andika Febriyan         | A014B4KY3896          | Mobile Development | [LinkedIn](www.linkedin.com/in/riyo-andika-febriyan)  | Universitas Udayana       |
 
 ---
 
