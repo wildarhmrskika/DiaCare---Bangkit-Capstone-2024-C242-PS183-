@@ -62,7 +62,10 @@ Explore our repositories for each learning path:
 
 | Team | Week 1                         | Week 2                              | Week 3                         | Week 4                            | Week 5         |
 |------|--------------------------------|-------------------------------------|--------------------------------|------------------------------------|----------------|
-| ML   | Build Survey-based Model      | Train and Deploy Survey-based Model | Build Speech-based Model      | Train and Deploy Speech-based Model | Integrating    |
+| ML   |Search 
+and gathering datasets and cleaning dataset
+    | Build and train a predictive model |Test the models performance and optimize it
+      | Fine-tune the model to enhance accuracy and efficiency | Integrating    |
 | MD   | -                              | UI/UX Design                        | App Development               | App Development                    | Integrating    |
 | CC   | -                              | Web Development                     | API Development               | Deploy to Google Cloud Platform    | Integrating    |
 
