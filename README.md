@@ -27,19 +27,10 @@ Thank you for visiting our project! ✨
 | Muhammad Hafiz Nur           | M184B4KY2867          | Machine Learning   | [LinkedIn](https://linkedin.com/in/hafiz) | Universitas Andalas       |
 | Dara Fazila                  | C251B4KX1000          | Cloud Computing    | [LinkedIn](https://www.linkedin.com/in/dara-fazila-5a8154327/)  | Universitas Malikussaleh  |
 | Laurensia Dini Marys Haryanto| C014B4KX2257          | Cloud Computing    | [LinkedIn](https://www.linkedin.com/in/laurensiadini)| Universitas Udayana   |
-| I Putu Surya Adi Wirawan     | A014B4KY1885          | Mobile Development | [LinkedIn](https://linkedin.com/in/putu)  | Universitas Udayana       |
+| I Putu Surya Adi Wirawan     | A014B4KY1885          | Mobile Development | [LinkedIn](linkedin.com/in/putu-surya-7a5060309)  | Universitas Udayana       |
 | Riyo Andika Febriyan         | A014B4KY3896          | Mobile Development | [LinkedIn](www.linkedin.com/in/riyo-andika-febriyan)  | Universitas Udayana       |
 
 ---
-
-### 📂 Repositories
-Explore our repositories for each learning path:
-- **[Mobile Development](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
-- **[Machine Learning](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
-- **[Cloud Computing](https://github.com/wildarhmrskika/DiaCare_Bangkit_Capstone_2024_C242-PS183)**
-
----
-
 
 ### Project Mentors
 - **-------** - Assistant Laboratory at Politeknik Siber dan Sandi Negara  
