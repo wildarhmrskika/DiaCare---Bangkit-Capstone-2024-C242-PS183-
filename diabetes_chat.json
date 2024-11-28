@@ -1,0 +1,139 @@
+{
+    "intents": [
+      {
+        "tag": "definition",
+        "patterns": [
+          "Apa itu diabetes?",
+          "Tolong jelaskan tentang diabetes",
+          "Apa yang dimaksud dengan diabetes?",
+          "Diabetes itu apa?"
+        ],
+        "responses": [
+          "Diabetes adalah kondisi kronis di mana tubuh tidak dapat menghasilkan atau menggunakan insulin dengan baik, sehingga kadar gula darah menjadi tinggi.",
+          "Diabetes adalah penyakit yang memengaruhi bagaimana tubuh mengolah gula darah (glukosa)."
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "How are you",
+          "Is anyone there?",
+          "Good day"
+        ],
+        "responses": [
+          "Hello!",
+          "Hi there!",
+          "Greetings!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye!",
+          "See you later!",
+          "Take care!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Happy to help!"
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": [
+          "Apa saja gejala diabetes?",
+          "Bagaimana tanda-tanda diabetes?",
+          "Gejala awal diabetes itu apa?",
+          "Apa ciri-ciri diabetes?"
+        ],
+        "responses": [
+          "Gejala diabetes meliputi sering haus, sering buang air kecil, mudah lelah, penglihatan kabur, dan luka yang sulit sembuh.",
+          "Ciri-ciri diabetes bisa berupa penurunan berat badan yang tidak disengaja, rasa lapar terus-menerus, dan infeksi yang sering terjadi."
+        ]
+      },
+      {
+        "tag": "prevention",
+        "patterns": [
+          "Bagaimana cara mencegah diabetes?",
+          "Tips untuk mencegah diabetes?",
+          "Apakah diabetes bisa dicegah?",
+          "Apa yang harus dilakukan agar tidak terkena diabetes?"
+        ],
+        "responses": [
+          "Diabetes dapat dicegah dengan menjaga pola makan sehat, rutin berolahraga, menjaga berat badan ideal, dan menghindari konsumsi gula berlebih.",
+          "Untuk mencegah diabetes, penting untuk mengatur pola hidup sehat, seperti mengonsumsi makanan berserat tinggi dan melakukan aktivitas fisik secara teratur."
+        ]
+      },
+      {
+        "tag": "treatment",
+        "patterns": [
+          "Bagaimana cara mengobati diabetes?",
+          "Apa pengobatan untuk diabetes?",
+          "Bisakah diabetes disembuhkan?",
+          "Apa yang harus dilakukan jika terkena diabetes?"
+        ],
+        "responses": [
+          "Pengobatan diabetes meliputi pengaturan pola makan, olahraga, dan penggunaan obat atau insulin sesuai anjuran dokter.",
+          "Diabetes dapat dikelola dengan menjaga kadar gula darah tetap normal melalui gaya hidup sehat dan kontrol medis."
+        ]
+      },
+      {
+        "tag": "types",
+        "patterns": [
+          "Apa saja jenis diabetes?",
+          "Jenis-jenis diabetes itu apa?",
+          "Ada berapa tipe diabetes?",
+          "Apa perbedaan diabetes tipe 1 dan tipe 2?"
+        ],
+        "responses": [
+          "Diabetes ada beberapa jenis, yaitu diabetes tipe 1, diabetes tipe 2, dan diabetes gestasional (diabetes selama kehamilan).",
+          "Diabetes tipe 1 disebabkan oleh sistem imun menyerang sel penghasil insulin, sedangkan diabetes tipe 2 terjadi karena resistensi insulin."
+        ]
+      },
+      {
+        "tag": "diet",
+        "patterns": [
+          "Makanan apa yang baik untuk penderita diabetes?",
+          "Apa saja yang boleh dimakan oleh penderita diabetes?",
+          "Bagaimana pola makan untuk diabetes?",
+          "Diet untuk penderita diabetes itu seperti apa?"
+        ],
+        "responses": [
+          "Penderita diabetes disarankan mengonsumsi makanan berserat tinggi seperti sayuran, biji-bijian utuh, buah rendah gula, dan protein tanpa lemak.",
+          "Untuk diabetes, hindari makanan tinggi gula, pilih karbohidrat kompleks, dan kontrol porsi makan."
+        ]
+      },
+      {
+        "tag": "complications",
+        "patterns": [
+          "Apa komplikasi dari diabetes?",
+          "Bahaya diabetes itu apa saja?",
+          "Komplikasi yang disebabkan diabetes?",
+          "Diabetes bisa menyebabkan penyakit apa?"
+        ],
+        "responses": [
+          "Diabetes dapat menyebabkan komplikasi serius seperti penyakit jantung, kerusakan ginjal, gangguan penglihatan, dan masalah saraf.",
+          "Komplikasi diabetes termasuk neuropati, retinopati, kaki diabetik, dan risiko infeksi yang lebih tinggi."
+        ]
+      }
+    ]
+  }
+  
