@@ -2,6 +2,9 @@
 
 NailScan.ai leverages Machine Learning to detect diabetes through nail condition analysis. This repository contains the code and resources for building and deploying a **Convolutional Neural Network (CNN)** model trained on nail images to classify them as *Healthy* or *Diabetes*. Let's use technology to make healthcare more accessible and proactive! 🌟
 
+<p>
+   <img src="[Images/Training_Loss.png](https://drive.google.com/file/d/1PUoY2ERCss064wgpovNXu6PkaRHD3SaB/view?usp=drive_link)" alt="Training Loss" style="width:48%; margin-right:4%;">
+</p>
 ---
 
 ## 🌟 Features
