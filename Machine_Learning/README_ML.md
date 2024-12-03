@@ -31,3 +31,48 @@ Our dataset comprises **nail images** categorized into two classes:
 
 ### Dataset Structure
 The dataset is organized as follows:
+
+
+
+### Source
+Data was collected with permission from healthcare institutions and processed for training and validation. 
+
+---
+
+## 🚀 Machine Learning Model
+### Architecture
+A **Convolutional Neural Network (CNN)** architecture was chosen for its efficiency in image classification tasks.
+
+### Performance Metrics
+- **Accuracy**: 90%
+- **Precision**: 88%
+- **Recall**: 92%
+
+#### Training & Validation Results:
+<p>
+   <img src="Images/Training_Loss.png" alt="Training Loss" style="width:48%; margin-right:4%;">
+   <img src="Images/Training_Accuracy.png" alt="Training Accuracy" style="width:48%;">
+</p>
+
+#### Confusion Matrix:
+<p>
+   <img src="Images/Confusion_Matrix.png" alt="Confusion Matrix"/>
+</p>
+
+---
+
+## 🔧 Application Workflow
+1. **Image Upload**: Users upload a nail image via the **NailScan.ai** interface.
+2. **Image Processing**: The image is processed and sent to the trained ML model hosted in the cloud.
+3. **Prediction**: The model classifies the nail as *Healthy* or *Diabetes*.
+4. **Results**: The app displays the classification along with a confidence score.
+
+---
+
+## 📋 How to Use
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/username/NailScan.ai.git
+
+
+
