@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deteksi Gejala Diabetes Berdasarkan Kondisi Kuku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin: 20px 0;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .image-preview {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #result {
+            margin-top: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            border: 2px solid #ddd;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediksi Diabetes dari Gambar Kuku</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="imageFile">Pilih gambar kuku untuk analisis:</label>
+                <input type="file" id="imageFile" name="file" accept="image/*" required>
+            </div>
+        </form>
+        <div id="imagePreview" class="image-preview"></div>
+        <button id="predictButton" style="display: none;">Prediksi</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        const imageFileInput = document.getElementById('imageFile');
+        const imagePreview = document.getElementById('imagePreview');
+        const resultElement = document.getElementById('result');
+        const predictButton = document.getElementById('predictButton');
+        let selectedImage = null;
+
+        imageFileInput.addEventListener('change', function () {
+            const file = imageFileInput.files[0];
+            if (file) {
+                selectedImage = file;
+                const reader = new FileReader();
+                reader.onloadend = function () {
+                    imagePreview.innerHTML = `<img src="${reader.result}" alt="Preview Gambar" style="max-width:100%; border-radius:5px;">`;
+                    predictButton.style.display = 'inline-block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        predictButton.addEventListener('click', async function () {
+            if (selectedImage) {
+                const formData = new FormData();
+                formData.append('file', selectedImage);
+
+                try {
+                    const response = await fetch('http://127.0.0.1:8000/predict/', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const data = await response.json();
+                    if (response.ok) {
+                        resultElement.innerHTML = `Hasil Deteksi: ${data["Hasil Deteksi"]} <br> Tingkat Persentase Deteksi: ${data["Tingkat Persentase Deteksi"]}`;
+                        resultElement.classList.remove('error');
+                    } else {
+                        resultElement.innerHTML = data.error || "Terjadi kesalahan.";
+                        resultElement.classList.add('error');
+                    }
+                } catch (error) {
+                    resultElement.innerHTML = "Gagal menghubungi server.";
+                    resultElement.classList.add('error');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
