@@ -1,0 +1,7 @@
+path: /content/drive/MyDrive/Diabetes 
+train: /content/drive/MyDrive/Diabetes/Dataset/images/train                  
+val: /content/drive/MyDrive/Diabetes/Dataset/images/val                     
+test: /content/drive/MyDrive/Diabetes/Dataset/images/test                   
+
+nc: 2  
+names: ['Diabetes', 'Sehat']
