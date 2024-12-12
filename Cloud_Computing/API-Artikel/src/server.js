@@ -2,8 +2,8 @@ import Hapi from '@hapi/hapi';
 import routes from './routes/routes.js';
 
 const server = Hapi.server({
-  port: 9000,
-  host: 'localhost',
+  port: process.env.PORT || 9000, 
+  host: '0.0.0.0', 
 });
 
 const init = async () => {
@@ -14,6 +14,6 @@ const init = async () => {
 };
 
 init().catch((err) => {
-  console.log(err);
+  console.error('Error starting server:', err);
   process.exit(1);
 });
