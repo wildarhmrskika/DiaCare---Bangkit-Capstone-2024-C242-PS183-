@@ -1,0 +1,78 @@
+<resources>
+    //buttom
+    <string name="app_name">Capstone DiaCare</string>
+    <string name="diacare">DiaCare</string>
+    <string name="home">Home</string>
+    <string name="galery">Photo</string>
+    <string name="history">History</string>
+    <string name="chat">Chat</string>
+
+    //splash
+    <string name="splash_screen">This is the Splash Screen</string>
+
+    //home
+    <string name="home_fragment">Home fragment</string>
+    <string name="galery_fragment">Galery fragment</string>
+    <string name="history_fragment">History fragment</string>
+    <string name="chat_fragment">Chat fragment</string>
+
+    <string name="welcome_message">Welcome DiaCare friends, lets check your bodys nutritional health with us without the need to come to hospital</string>
+    <string name="start_quest">Start the Quest</string>
+    <string name="camera">Camera</string>
+    <string name="news">News</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="messagecard">click to add image</string>
+
+    //gallery
+    <string name="image_preview_placeholder">Image Preview</string>
+    <string name="gallery">Gallery</string>
+    <string name="analyze">Analyze</string>
+
+    //news
+    <string name="News">News Title</string>
+    <string name="news_title">News Article</string>
+    <string name="news_image">News Image</string>
+    <string name="news_author">By: </string>
+    <string name="news_publisher">Publisher</string>
+    <string name="open_in_browser">Browsing</string>
+    <string name="publish_date">Published at 2024</string>
+    <string name="news_description">Berita Hangat hari ini</string>
+    <string name="news_parent">News</string>
+
+    //analyze
+    <string name="save_history">Save Activity History</string>
+    <string name="detection_accuracy">Accuracy: %s</string>
+    <string name="detection_detail">Detection Detail</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="detection_precaution">Precaution: %s</string>
+    <string name="detection_risk">Risk: %s</string>
+    <string name="detection_suggestion">Suggestion: %s</string>
+    <string name="precaution">Precaution</string>
+    <string name="risk">Risk</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="detection_result">Result: %s</string>
+    <string name="detection_date">Date: %s</string>
+
+    //history
+    <string name="resulth_history">Detection Resulth</string>
+    <string name="date_detection">Detection Date</string>
+    <string name="diabet_type_and_percent">Diabetes 0%</string>
+    <string name="detection_image">Detection Image</string>
+    <string name="delete_detection">Delete Image</string>
+    <string name="history_detection">History Detection</string>
+
+    <string name="get_foto">Get Foto</string>
+
+    //chat
+    <string name="time_chat">00:00</string>
+    <string name="message_chat">Capstone DiaCare</string>
+    <string name="titlechat"> SiCare</string>
+    <string name="chaton"> Online</string>
+    <string name="type_chat"> Type a message</string>
+    <string name="send_chat"> Send Message</string>
+    <string name="back_to"> Go HomePage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_tagline">\"Kesehatan Anda, Prioritas Kami.\"\nMulailah perjalanan menuju hidup sehat bersama diacare</string>
+</resources>
