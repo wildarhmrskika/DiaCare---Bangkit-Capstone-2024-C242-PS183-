@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.home.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/navhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:fabCradleMargin="8dp"
+        app:fabCradleRoundedCornerRadius="40dp"
+        app:fabCradleVerticalOffset="10dp"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/transparent"
+            app:menu="@menu/menu" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal"
+        android:importantForAccessibility="no"
+        android:src="@drawable/camera_filled"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/bottomNavigationView"
+        app:layout_anchorGravity="top|center"
+        app:maxImageSize="40dp"
+        app:shapeAppearanceOverlay="@style/fab_3_rounded" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
