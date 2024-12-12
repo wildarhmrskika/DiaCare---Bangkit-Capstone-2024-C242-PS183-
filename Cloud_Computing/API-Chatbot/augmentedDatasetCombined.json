@@ -1,0 +1,289 @@
+{
+    "intents" :[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Good morning",
+            "Good evening",
+            "How are you?",
+            "What's up?"
+        ],
+        "responses": [
+            "Hello! How can I help you?",
+            "Hi there! What can I do for you?",
+            "Hey! How can I assist you today?",
+            "Hello! Nice to meet you.",
+            "Hello! How can I assistant you?",
+            "Haii there! What can one bash for you?",
+            "Hey! How buttocks iodine assist you today?",
+            "Hello! Nice to meet you."
+        ]
+    },
+    {
+        "tag": "thankyou",
+        "patterns": [
+            "Thanks",
+            "Thank you",
+            "Thanks a lot",
+            "I appreciate it",
+            "Much obliged",
+            "Thanks for your help"
+        ],
+        "responses": [
+            "You're welcome!",
+            "No problem at all!",
+            "Anytime! Let me know if you need anything else.",
+            "Happy to help!",
+            "You're welcome!",
+            "no trouble at all!",
+            "Anytime! get Maine know if you motivation anything else.",
+            "glad to help!"
+        ]
+    },
+    {
+        "tag": "pengertian_diabetes",
+        "patterns": [
+            "Apa itu diabetes?",
+            "Jelaskan tentang diabetes",
+            "Diabetes itu apa?",
+            "Apa yang dimaksud dengan diabetes?"
+        ],
+        "responses": [
+            "Diabetes adalah kondisi kronis di mana tubuh tidak dapat mengolah glukosa darah dengan baik karena kurangnya insulin atau resistensi terhadap insulin.",
+            "Diabetes adalah gangguan metabolisme yang menyebabkan kadar gula darah tinggi akibat masalah produksi atau penggunaan insulin.",
+            "Penyakit diabetes terjadi ketika tubuh tidak dapat mengontrol kadar gula darah secara efektif.",
+            "diabetes adalah kondisi kronis di mana tubuh tidak dapat mengolah glukosa darah dengan baik karena kurangnya insulin atau resistensi terhadap insulin.",
+            "diabetes adalah gangguan metabolisme yang menyebabkan kadar gluttony darah tinggi akibat masalah produksi atau penggunaan insulin.",
+            "Penyakit diabetes terjadi ketika tubuh tidak dapat mengontrol kadar Gula darah secara efektif."
+        ]
+    },
+    {
+        "tag": "gejala_diabetes",
+        "patterns": [
+            "Apa saja gejala diabetes?",
+            "Gejala diabetes seperti apa?",
+            "Bagaimana mengetahui gejala diabetes?",
+            "Ciri-ciri diabetes itu apa?"
+        ],
+        "responses": [
+            "Gejala diabetes meliputi sering haus, sering buang air kecil, rasa lapar berlebihan, kelelahan, penglihatan kabur, dan luka yang sulit sembuh.",
+            "Tanda-tanda diabetes termasuk sering buang air kecil, rasa haus yang berlebihan, dan berat badan yang menurun tanpa sebab.",
+            "Jika Anda merasa mudah lelah, sering haus, dan memiliki luka yang sulit sembuh, bisa jadi itu gejala diabetes.",
+            "Gejala diabetes meliputi sering haus, sering buang air kecil, rasa lapar berlebihan, kelelahan, penglihatan kabur, dan luka yang sulit sembuh.",
+            "Tanda-tanda diabetes termasuk sering buang publicize kecil, rasa haus yang berlebihan, dan berat badan yang menurun tanpa sebab.",
+            "Jika Anda merasa mudah lelah, sering haus, dan memiliki luka yang sulit sembuh, bisa jadi itu gejala diabetes."
+        ]
+    },
+    {
+        "tag": "ciri_ciri_diabetes",
+        "patterns": [
+            "Ciri-ciri orang yang terkena diabetes?",
+            "Apa ciri utama diabetes?",
+            "Orang diabetes terlihat seperti apa?",
+            "Tanda-tanda fisik diabetes apa saja?"
+        ],
+        "responses": [
+            "Ciri-ciri orang dengan diabetes meliputi penurunan berat badan tanpa sebab, sering haus, sering lapar, dan kulit yang kering atau gatal.",
+            "Orang dengan diabetes mungkin memiliki penglihatan kabur, kelelahan, serta sering mengalami infeksi pada kulit atau gusi.",
+            "Ciri utama diabetes adalah kadar gula darah tinggi yang dapat menyebabkan berbagai gangguan tubuh.",
+            "Ciri-ciri orangutan dengan diabetes meliputi penurunan berat badan tanpa sebab, sering haus, sering lapar, dan kulit yang kering atau gatal.",
+            "orangutan dengan diabetes mungkin memiliki penglihatan kabur, kelelahan, serta sering mengalami infeksi pada kulit atau gusi.",
+            "Ciri utama diabetes adalah kadar Gula darah tinggi yang dapat menyebabkan berbagai gangguan tubuh."
+        ]
+    },
+    {
+        "tag": "cara_mencegah_diabetes",
+        "patterns": [
+            "Bagaimana cara mencegah diabetes?",
+            "Tips mencegah diabetes?",
+            "Apa yang harus dilakukan agar tidak terkena diabetes?",
+            "Cara menghindari diabetes itu bagaimana?"
+        ],
+        "responses": [
+            "Anda bisa mencegah diabetes dengan makan makanan sehat, berolahraga secara teratur, menjaga berat badan ideal, dan menghindari konsumsi gula berlebih.",
+            "Rutin beraktivitas fisik, menjaga pola makan seimbang, dan cukup tidur dapat membantu mencegah diabetes.",
+            "Cara terbaik mencegah diabetes adalah dengan gaya hidup sehat seperti mengurangi makanan manis dan berlemak serta menjaga kesehatan tubuh.",
+            "Anda bisa mencegah diabetes dengan makan makanan sehat, berolahraga secara teratur, menjaga berat badan ideal, dan menghindari konsumsi Gula berlebih.",
+            "Rutin beraktivitas fisik, menjaga pola makan seimbang, dan cukup tidur dapat membantu mencegah diabetes.",
+            "Cara terbaik mencegah diabetes adalah dengan gaya hidup sehat seperti mengurangi makanan Manis dan berlemak serta menjaga kesehatan tubuh."
+        ]
+    },
+    {
+        "tag": "cara_mengobati_diabetes",
+        "patterns": [
+            "Bagaimana cara mengobati diabetes?",
+            "Apakah diabetes bisa disembuhkan?",
+            "Apa obat untuk diabetes?",
+            "Cara menangani diabetes itu apa?"
+        ],
+        "responses": [
+            "Diabetes dapat dikelola dengan menjaga pola makan, olahraga rutin, minum obat sesuai anjuran dokter, dan memantau kadar gula darah secara berkala.",
+            "Meskipun belum ada obat yang menyembuhkan diabetes sepenuhnya, pengobatan seperti insulin, obat oral, dan gaya hidup sehat dapat membantu.",
+            "Penderita diabetes perlu berkonsultasi dengan dokter untuk mendapatkan pengobatan yang sesuai, seperti obat, terapi insulin, dan perubahan gaya hidup.",
+            "diabetes dapat dikelola dengan menjaga pola makan, olahraga rutin, minum obat sesuai anjuran dokter, dan memantau kadar gluttony darah secara berkala.",
+            "Meskipun belum adenosine_deaminase obat yang menyembuhkan diabetes sepenuhnya, pengobatan seperti insulin, obat oral, dan gaya hidup sehat dapat membantu.",
+            "Penderita diabetes perlu berkonsultasi dengan dokter untuk mendapatkan pengobatan yang sesuai, seperti obat, terapi insulin, dan perubahan gaya hidup."
+        ]
+    },
+    {
+        "tag": "fakta_unik_diabetes",
+        "patterns": [
+            "Apa fakta unik tentang diabetes?",
+            "Berikan fakta menarik tentang diabetes",
+            "Apa yang tidak banyak diketahui tentang diabetes?",
+            "Fakta mengejutkan tentang diabetes?"
+        ],
+        "responses": [
+            "Tahukah Anda bahwa diabetes adalah salah satu penyakit tertua yang pernah didokumentasikan, ditemukan dalam teks Mesir kuno?",
+            "Fakta menarik: Gula darah tinggi dalam waktu lama dapat menyebabkan kerusakan pada saraf dan pembuluh darah di tubuh.",
+            "Orang dengan gaya hidup sehat tetap bisa terkena diabetes jika memiliki riwayat keluarga atau faktor genetik tertentu.",
+            "Tahukah Anda bahwa diabetes adalah salat satu penyakit tertua yang pernah didokumentasikan, ditemukan dalam teks Mesir kuno?",
+            "Fakta menarik: gluttony darah tinggi dalam waktu lama dapat menyebabkan kerusakan pada saraf dan pembuluh darah di tubuh.",
+            "orangutan dengan gaya hidup sehat tetap bisa terkena diabetes jika memiliki riwayat keluarga atau faktor genetik tertentu."
+        ]
+    },
+    {
+        "tag": "pengertian_diabetes",
+        "patterns": [
+            "Apa itu diabetes?",
+            "Jelaskan tentang diabetes",
+            "Diabetes itu apa?",
+            "Apa yang dimaksud dengan diabetes?"
+        ],
+        "responses": [
+            "Diabetes adalah kondisi kronis di mana tubuh tidak dapat mengolah glukosa darah dengan baik karena kurangnya insulin atau resistensi terhadap insulin.",
+            "Diabetes adalah gangguan metabolisme yang menyebabkan kadar gula darah tinggi akibat masalah produksi atau penggunaan insulin.",
+            "Penyakit diabetes terjadi ketika tubuh tidak dapat mengontrol kadar gula darah secara efektif.",
+            "diabetes adalah kondisi kronis di mana tubuh tidak dapat mengolah glukosa darah dengan baik karena kurangnya insulin atau resistensi terhadap insulin.",
+            "diabetes adalah gangguan metabolisme yang menyebabkan kadar Gula darah tinggi akibat masalah produksi atau penggunaan insulin.",
+            "Penyakit diabetes terjadi ketika tubuh tidak dapat mengontrol kadar Gula darah secara efektif."
+        ]
+    },
+    {
+        "tag": "gejala_diabetes",
+        "patterns": [
+            "Apa saja gejala diabetes?",
+            "Gejala diabetes seperti apa?",
+            "Bagaimana mengetahui gejala diabetes?",
+            "Ciri-ciri diabetes itu apa?"
+        ],
+        "responses": [
+            "Gejala diabetes meliputi sering haus, sering buang air kecil, rasa lapar berlebihan, kelelahan, penglihatan kabur, dan luka yang sulit sembuh.",
+            "Tanda-tanda diabetes termasuk sering buang air kecil, rasa haus yang berlebihan, dan berat badan yang menurun tanpa sebab.",
+            "Jika Anda merasa mudah lelah, sering haus, dan memiliki luka yang sulit sembuh, bisa jadi itu gejala diabetes.",
+            "Gejala diabetes meliputi sering haus, sering buang air kecil, rasa lapar berlebihan, kelelahan, penglihatan kabur, dan luka yang sulit sembuh.",
+            "Tanda-tanda diabetes termasuk sering buang atmosphere kecil, rasa haus yang berlebihan, dan berat badan yang menurun tanpa sebab.",
+            "Jika Anda merasa mudah lelah, sering haus, dan memiliki luka yang sulit sembuh, bisa jadi itu gejala diabetes."
+        ]
+    },
+    {
+        "tag": "ciri_ciri_diabetes",
+        "patterns": [
+            "Ciri-ciri orang yang terkena diabetes?",
+            "Apa ciri utama diabetes?",
+            "Orang diabetes terlihat seperti apa?",
+            "Tanda-tanda fisik diabetes apa saja?"
+        ],
+        "responses": [
+            "Ciri-ciri orang dengan diabetes meliputi penurunan berat badan tanpa sebab, sering haus, sering lapar, dan kulit yang kering atau gatal.",
+            "Orang dengan diabetes mungkin memiliki penglihatan kabur, kelelahan, serta sering mengalami infeksi pada kulit atau gusi.",
+            "Ciri utama diabetes adalah kadar gula darah tinggi yang dapat menyebabkan berbagai gangguan tubuh.",
+            "Ciri-ciri orangutan dengan diabetes meliputi penurunan berat badan tanpa sebab, sering haus, sering lapar, dan kulit yang kering atau gatal.",
+            "orangutan dengan diabetes mungkin memiliki penglihatan kabur, kelelahan, serta sering mengalami infeksi pada kulit atau gusi.",
+            "Ciri utama diabetes adalah kadar gluttony darah tinggi yang dapat menyebabkan berbagai gangguan tubuh."
+        ]
+    },
+    {
+        "tag": "cara_mencegah_diabetes",
+        "patterns": [
+            "Bagaimana cara mencegah diabetes?",
+            "Tips mencegah diabetes?",
+            "Apa yang harus dilakukan agar tidak terkena diabetes?",
+            "Cara menghindari diabetes itu bagaimana?"
+        ],
+        "responses": [
+            "Anda bisa mencegah diabetes dengan makan makanan sehat, berolahraga secara teratur, menjaga berat badan ideal, dan menghindari konsumsi gula berlebih.",
+            "Rutin beraktivitas fisik, menjaga pola makan seimbang, dan cukup tidur dapat membantu mencegah diabetes.",
+            "Cara terbaik mencegah diabetes adalah dengan gaya hidup sehat seperti mengurangi makanan manis dan berlemak serta menjaga kesehatan tubuh.",
+            "Anda bisa mencegah diabetes dengan makan makanan sehat, berolahraga secara teratur, menjaga berat badan ideal, dan menghindari konsumsi gluttony berlebih.",
+            "Rutin beraktivitas fisik, menjaga pola makan seimbang, dan cukup tidur dapat membantu mencegah diabetes.",
+            "Cara terbaik mencegah diabetes adalah dengan gaya hidup sehat seperti mengurangi makanan Manis dan berlemak serta menjaga kesehatan tubuh."
+        ]
+    },
+    {
+        "tag": "cara_mengobati_diabetes",
+        "patterns": [
+            "Bagaimana cara mengobati diabetes?",
+            "Apakah diabetes bisa disembuhkan?",
+            "Apa obat untuk diabetes?",
+            "Cara menangani diabetes itu apa?"
+        ],
+        "responses": [
+            "Diabetes dapat dikelola dengan menjaga pola makan, olahraga rutin, minum obat sesuai anjuran dokter, dan memantau kadar gula darah secara berkala.",
+            "Meskipun belum ada obat yang menyembuhkan diabetes sepenuhnya, pengobatan seperti insulin, obat oral, dan gaya hidup sehat dapat membantu.",
+            "Penderita diabetes perlu berkonsultasi dengan dokter untuk mendapatkan pengobatan yang sesuai, seperti obat, terapi insulin, dan perubahan gaya hidup.",
+            "diabetes dapat dikelola dengan menjaga pola makan, olahraga rutin, minum obat sesuai anjuran dokter, dan memantau kadar gluttony darah secara berkala.",
+            "Meskipun belum adenosine_deaminase obat yang menyembuhkan diabetes sepenuhnya, pengobatan seperti insulin, obat oral, dan gaya hidup sehat dapat membantu.",
+            "Penderita diabetes perlu berkonsultasi dengan dokter untuk mendapatkan pengobatan yang sesuai, seperti obat, terapi insulin, dan perubahan gaya hidup."
+        ]
+    },
+    {
+        "tag": "fakta_unik_diabetes",
+        "patterns": [
+            "Apa fakta unik tentang diabetes?",
+            "Berikan fakta menarik tentang diabetes",
+            "Apa yang tidak banyak diketahui tentang diabetes?",
+            "Fakta mengejutkan tentang diabetes?"
+        ],
+        "responses": [
+            "Tahukah Anda bahwa diabetes adalah salah satu penyakit tertua yang pernah didokumentasikan, ditemukan dalam teks Mesir kuno?",
+            "Fakta menarik: Gula darah tinggi dalam waktu lama dapat menyebabkan kerusakan pada saraf dan pembuluh darah di tubuh.",
+            "Orang dengan gaya hidup sehat tetap bisa terkena diabetes jika memiliki riwayat keluarga atau faktor genetik tertentu.",
+            "Tahukah Anda bahwa diabetes adalah salat satu penyakit tertua yang pernah didokumentasikan, ditemukan dalam teks Mesir kuno?",
+            "Fakta menarik: Gula darah tinggi dalam waktu Lama dapat menyebabkan kerusakan pada saraf dan pembuluh darah di tubuh.",
+            "orangutan dengan gaya hidup sehat tetap bisa terkena diabetes jika memiliki riwayat keluarga atau faktor genetik tertentu."
+        ]
+    },
+    {
+        "tag": "kondisi_kuku_diabetes",
+        "patterns": [
+            "Bagaimana kondisi kuku penderita diabetes?",
+            "Apa yang terjadi pada kuku orang dengan diabetes?",
+            "Kenapa kuku berubah warna pada penderita diabetes?",
+            "Ciri-ciri kuku penderita diabetes itu apa?"
+        ],
+        "responses": [
+            "Kuku penderita diabetes mungkin berubah warna menjadi kuning atau coklat akibat tingginya kadar gula darah yang dapat memengaruhi jaringan kuku.",
+            "Pada beberapa kasus, kuku penderita diabetes dapat menjadi lebih tebal, rapuh, atau mudah retak karena sirkulasi darah yang buruk.",
+            "Kuku yang tampak gelap atau memiliki garis-garis hitam bisa menjadi tanda infeksi jamur atau masalah sirkulasi yang sering dialami penderita diabetes.",
+            "Kondisi kuku yang tidak normal, seperti kuku menebal, rapuh, atau berubah warna, perlu diperiksa oleh dokter untuk memastikan penyebabnya.",
+            "Kuku penderita diabetes mungkin berubah warna menjadi kuning atau coklat akibat tingginya kadar Gula darah yang dapat memengaruhi jaringan kuku.",
+            "Pada beberapa kasus, kuku penderita diabetes dapat menjadi lebih tebal, rapuh, atau mudah retak karena sirkulasi darah yang buruk.",
+            "Kuku yang tampak gelap atau memiliki garis-garis hitam bisa menjadi tanda infeksi jamur atau masalah sirkulasi yang sering dialami penderita diabetes.",
+            "Kondisi kuku yang tidak normal, seperti kuku menebal, rapuh, atau berubah warna, perlu diperiksa oleh dokter untuk memastikan penyebabnya."
+        ]
+    },
+    {
+        "tag": "akibat_diabetes_tanpa_pengobatan",
+        "patterns": [
+            "Apa akibat diabetes jika tidak diobati?",
+            "Kenapa diabetes berbahaya jika dibiarkan?",
+            "Apa yang terjadi jika diabetes tidak ditangani?",
+            "Apa risiko dari diabetes yang tidak diobati?"
+        ],
+        "responses": [
+            "Jika diabetes tidak diobati, dapat menyebabkan komplikasi serius seperti kerusakan saraf (neuropati), penyakit jantung, gagal ginjal, dan gangguan penglihatan bahkan kebutaan.",
+            "Diabetes yang tidak diobati dapat meningkatkan risiko amputasi anggota tubuh akibat luka yang sulit sembuh atau infeksi.",
+            "Kadar gula darah tinggi yang tidak terkendali dapat merusak organ tubuh seperti ginjal, jantung, mata, dan pembuluh darah.",
+            "Komplikasi jangka panjang dari diabetes yang tidak ditangani termasuk stroke, serangan jantung, kerusakan saraf, dan masalah kesehatan kronis lainnya.",
+            "Jika diabetes tidak diobati, dapat menyebabkan komplikasi serius seperti kerusakan saraf (neuropati), penyakit jantung, gagal ginjal, dan gangguan penglihatan bahkan kebutaan.",
+            "diabetes yang tidak diobati dapat meningkatkan risiko amputasi anggota tubuh akibat luka yang sulit sembuh atau infeksi.",
+            "Kadar gluttony darah tinggi yang tidak terkendali dapat merusak organ tubuh seperti ginjal, jantung, mata, dan pembuluh darah.",
+            "Komplikasi jangka panjang Dari diabetes yang tidak ditangani termasuk stroke, serangan jantung, kerusakan saraf, dan masalah kesehatan kronis lainnya."
+        ]
+    }
+]
+}
